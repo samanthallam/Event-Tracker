@@ -6,10 +6,12 @@ The ZIP contains a simple full-stack College Event Tracker application built usi
 
 The project is divided into two main parts:
 
-Frontend
-index.html — structure of the event tracker and create-event form
-style.css — styling for the application
-script.js — handles API requests, displaying events, creating events, and registrations
+Frontend \n 
+index.html — structure of the event tracker and create-event form \n
+style.css — styling for the \n
+script.js — handles API requests, displaying events, creating events, and registrations\n
+
+
 Backend
 app.py — Flask server containing the API routes and application logic
 events.db — SQLite database storing event information
