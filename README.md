@@ -38,7 +38,7 @@ Open terminal in the backend folder and install flask api
 ```bash
   python app.py
 ```
-**4. Finally run the website**
+**4. Finally run the website**  
   run index.html from the frontend folder in an integrated browser.
 
 
