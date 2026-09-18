@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang! = "en">
+
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content=" "width=device-width,
+    initial scale="1.0">
+    <title>College Event Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+
+  <body>
+    <header>
+      <h1>College Event Tracker</h1>
+      <p>Discover and register for college events</p>
+    </header>
+
+    
+
+    <section class="create-section">
+      <h2>Create an Event</h2>
+      <input id="title" type="text" placeholder="Event Title">
+      <input id="club" type="text" placeholder="Club Name">
+      <input id="date" type="date">
+      <input id="venue" type="text" placeholder="Venue">
+      <input id="description" type="text" placeholder="Description">
+      <button onclick="submitEvent()">
+        Create Event
+      </button>
+      <p id="message"></p>
+    </section>
+
+    <section>
+      <h2>Upcoming Events</h2>
+      <div id="events">
+        Loading events...
+      </div>
+    </section>
+    <script src="script.js"></script>
+
+
+  </body>
+
+
+
+
+
+
+
+</html>
+
